@@ -3,7 +3,6 @@ import sys
 # Чтение входных данных
 initial_word = input().strip()
 words = [sys.stdin.readlines()]
-print(words[0])
 words = [words[0][i].strip() for i in range(len(words[0]))]
 
 # Подсчет частоты букв в исходном слове
